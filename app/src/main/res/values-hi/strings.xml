@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SocialTrial</string>
+    <string name="dots">...</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="marathi">Marathi</string>
+    <string name="inspiration">प्रेरणा</string>
+    <string name="information">जानकारी</string>
+</resources>
