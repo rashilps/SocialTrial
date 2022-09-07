@@ -1,9 +1,21 @@
 <resources>
-    <string name="app_name">SocialTrial</string>
+    <string name="app_name">Kavach-Edu</string>
     <string name="inspiration">Inspiration</string>
     <string name="information">Information</string>
     <string name="dots" translatable="false">...</string>
     <string name="english" translatable="false">English</string>
     <string name="hindi" translatable="false">Hindi</string>
     <string name="marathi" translatable="false">Marathi</string>
+    <string name="welcome">Kavach-Edu app for Adivasi Women</string>
+    <string name="it_empowers">It empowers girls and women in rural tribal parts of  India to make a choice-A Choice to Live With Dignity,Independence and Freewill which is a birthright of any human being.
+This enables one to build their self-confidence and be financially empowered and therefore be respected and not live a life of meek submissivenes at the hands of others.It is a myth that a girl/woman cannot fulfill her dreams and aspirations and live a balanced life as well.It is important make efforts  to empower yourself as "God helps those who help themselves".
+Overcome your challenges like Jaswantiben Popat 94 year old Padma Shri Awardee and co founder of Lijjat Papad-who started this business in 1959 with a sum of rs 80 to grow into a company with a net worth of 1,600 crores.</string>
+    <string name="open_link">Open Link</string>
+    <string name="हिन्दी" translatable="false">हिन्दी</string>
+    <string name="मराठी" translatable="false">मराठी</string>
+    <string name="please_select_a_language" translatable="false">Welcome to Kavach-Edu App \nPlease select a language</string>
+    <string name="marathiLanguageSelectText" translatable="false">Kavach-Edu App वर आपले स्वागत आहे \n \कृपया भाषा निवडा</string>
+    <string name="hindiLanguageSelectText" translatable="false">Kavach-Edu ऐप में आपका स्वागत है \nकृपया कोई भाषा चुनें</string>
+    <string name="contact_us">Contact us</string>
+
 </resources>

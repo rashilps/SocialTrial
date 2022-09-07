@@ -22,12 +22,9 @@ public class LanguageSelect extends AppCompatActivity implements View.OnClickLis
         b1 = findViewById(R.id.button1id);
         b2 = findViewById(R.id.button2id);
         b3 = findViewById(R.id.button3id);
-
         b1.setOnClickListener(this);
         b2.setOnClickListener(this);
         b3.setOnClickListener(this);
-
-
     }
 
     @Override
@@ -35,13 +32,14 @@ public class LanguageSelect extends AppCompatActivity implements View.OnClickLis
         if (view == b1) {
             Intent i = new Intent(LanguageSelect.this, EnglishActivity.class);
             startActivity(i);
+            setLocale("en");
 
         } else if (view == b2) {
             Intent i = new Intent(LanguageSelect.this, HindiAcitvity.class);
             startActivity(i);
             setLocale("hi");
-        } else {
-            Intent i = new Intent(LanguageSelect.this, HindiAcitvity.class);
+        } else if (view == b3){
+            Intent i = new Intent(LanguageSelect.this, MarathiActivity.class);
             startActivity(i);
             setLocale("mr");
         }

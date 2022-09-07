@@ -6,24 +6,73 @@
     android:layout_height="match_parent"
     tools:context=".LanguageSelect"
     android:orientation="vertical"
-    android:gravity="center">
-
+    android:gravity="center"
+    android:background="#ffc4ff">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/superDarkPurple"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_select_a_language"
+        style="@style/textView"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/superDarkPurple"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hindiLanguageSelectText"
+        style="@style/textView"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/superDarkPurple"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/marathiLanguageSelectText"
+        style="@style/textView"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/superDarkPurple"
+        android:layout_marginTop="5dp"/>
     <Button
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/english"
         android:id="@+id/button1id"
+        style="@style/Button"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
         />
     <Button
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hindi"
-        android:id="@+id/button2id"/>
+        android:text="@string/हिन्दी"
+        android:id="@+id/button2id"
+        style="@style/Button"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        />
     <Button
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/marathi"
-        android:id="@+id/button3id"/>
+        android:text="@string/मराठी"
+        android:id="@+id/button3id"
+        style="@style/Button"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        />
 
 
 </LinearLayout>
