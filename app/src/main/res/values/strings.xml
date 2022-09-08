@@ -17,5 +17,25 @@ Overcome your challenges like Jaswantiben Popat 94 year old Padma Shri Awardee a
     <string name="marathiLanguageSelectText" translatable="false">Kavach-Edu App वर आपले स्वागत आहे \n \कृपया भाषा निवडा</string>
     <string name="hindiLanguageSelectText" translatable="false">Kavach-Edu ऐप में आपका स्वागत है \nकृपया कोई भाषा चुनें</string>
     <string name="contact_us">Contact us</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="_919324763314">+919324763314</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="kavach_edu" translatable="false">KAVACH - EDU</string>
+    <string name="educational_videos">Educational Videos</string>
+    <string name="englishVideo1" translatable="false"><u>none</u></string>
+    <string name="beauty_parlour_course">Beauty parlour course</string>
+    <string name="englishVideo2" translatable="false"><u>https://www.ushasew.com/sewing-lessons/</u></string>
+    <string name="sewing_machine_course">Sewing machine course</string>
+    <string name="pickle_making_recipe">Pickle making recipe</string>
+    <string name="englishVideo3" translatable="false"><u>https://youtu.be/w7y2zKb3iug</u></string>
+    <string name="papad_making_recipe">Papad making recipe</string>
+    <string name="englishVideo4" translatable="false">none</string>
+    <string name="hindiVideo1" translatable="false"><u>https://youtu.be/sYoz3G2OH5g</u></string>
+    <string name="hindiVideo4" translatable="false"><u>https://youtu.be/DV-JnJ1ORHw</u></string>
+    <string name="hindiVideo3" translatable="false"><u>https://youtu.be/RsQ67-KwUw4</u></string>
+    <string name="marathiVideo1" translatable="false"><u>none</u></string>
+    <string name="marathiVideo3" translatable="false"><u>https://youtu.be/w7y2zKb3iug</u></string>
+    <string name="marathiVideo4" translatable="false"><u>https://youtu.be/UaBzJmv97eY</u></string>
 
 </resources>

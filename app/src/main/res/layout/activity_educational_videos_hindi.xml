@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducationalVideosEnglish"
+    android:orientation="vertical"
+    android:background="@color/lightPurple">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/educational_videos"
+        android:textSize="30sp"
+        android:textColor="@color/superDarkPurple"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/beauty_parlour_course"
+            style="@style/bigtextView"/>
+        <TextView
+
+            android:id="@+id/yt1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/hindiVideo1"
+            style="@style/links"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sewing_machine_course"
+            style="@style/bigtextView"/>
+        <TextView
+
+            android:id="@+id/yt2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/englishVideo2"
+            style="@style/links"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pickle_making_recipe"
+            style="@style/bigtextView"/>
+        <TextView
+
+            android:id="@+id/yt3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/hindiVideo3"
+            style="@style/links"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/papad_making_recipe"
+            style="@style/bigtextView"/>
+        <TextView
+
+            android:id="@+id/yt4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/hindiVideo4"
+            style="@style/links"
+            />
+    </LinearLayout>
+</LinearLayout>

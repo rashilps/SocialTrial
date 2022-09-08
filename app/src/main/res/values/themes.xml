@@ -27,4 +27,16 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/superDarkPurple</item>
     </style>
+    <style name="bigtextView">
+
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/darkPurple</item>
+    </style>
+    <style name="links">
+        <item name="android:textStyle">italic</item>
+        <item name = "android:textSize">20sp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/superDarkPurple</item>
+    </style>
 </resources>

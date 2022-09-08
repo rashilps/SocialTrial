@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="darkPurple">#7b1fa2</color>
     <color name="superDarkPurple">#4a0072</color>
+    <color name="lightPurple">#ffc4ff</color>
 </resources>

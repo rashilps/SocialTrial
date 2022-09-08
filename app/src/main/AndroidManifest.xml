@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.socialtrial">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,13 +16,16 @@
         android:theme="@style/Theme.SocialTrial"
         tools:targetApi="31">
         <activity
-            android:name=".ContactUs_Marathi"
+            android:name=".EducationalVideosMarathi"
             android:exported="false" />
         <activity
-            android:name=".ContactUs_Hindi"
+            android:name=".EducationalVideosEnglish"
             android:exported="false" />
         <activity
-            android:name=".ContactUs_English"
+            android:name=".EducationalVideosHindi"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
             android:exported="false" />
         <activity
             android:name=".MarathiActivity"

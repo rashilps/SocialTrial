@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightPurple"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_weight="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/kavachlogo"
+        />
+
+    <TextView
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="@string/contact_us"
+        android:textColor="@color/superDarkPurple"
+        android:textSize="30sp" />
+    <ImageView
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/contact"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--For name-->
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_outline_person_24"
+                android:contentDescription="@string/todo" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name"
+                        android:textColor="@color/darkPurple"
+                        android:layout_marginStart="10dp"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kavach_edu"
+                        android:textColor="@color/darkPurple"
+                        android:layout_marginStart="10dp"
+                        android:textSize="22sp"/>
+                </LinearLayout>
+
+        </LinearLayout>
+        <!--For phone-->
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_outline_person_24"
+                android:contentDescription="@string/todo" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone"
+                    android:textColor="@color/darkPurple"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_919324763314"
+                    android:textColor="@color/darkPurple"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

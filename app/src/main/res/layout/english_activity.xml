@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffc4ff"
+    android:background="@color/lightPurple"
     >
 
     <LinearLayout
@@ -32,13 +32,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="@color/superDarkPurple"/>
+
             <TextView
+                style="@style/textView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
                 android:gravity="start"
-                android:text="@string/it_empowers"
-                style="@style/textView"
-                android:layout_marginTop="10dp"/>
+                android:text="@string/it_empowers" />
         </LinearLayout>
         <Button
             android:id="@+id/but1"
@@ -52,6 +53,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/contact_us"
+            style="@style/Button"
+            />
+        <Button
+            android:id="@+id/edu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/educational_videos"
             style="@style/Button"
             />
     </LinearLayout>

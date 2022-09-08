@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffc4ff"
+    android:background="@color/lightPurple"
     >
 
     <LinearLayout
@@ -52,6 +52,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/contact_us"
+            style="@style/Button"
+            />
+        <Button
+            android:id="@+id/edu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/educational_videos"
             style="@style/Button"
             />
     </LinearLayout>
